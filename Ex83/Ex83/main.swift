@@ -8,8 +8,7 @@
 import Foundation
 
 var sorteioNumeros: [Int] = []
-var aux = 0
-var j = 0
+
 
 for _ in 0...19 {
 	let x = Int.random(in: 1...99)
