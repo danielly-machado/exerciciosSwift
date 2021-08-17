@@ -11,11 +11,11 @@ func principal() {
 	let nota1 = retornaNotaAluno()
 	let nota2 = retornaNotaAluno()
 	let media = mediaNotaAluno(nota1: nota1, nota2: nota2)
-	let mensagem = mostraMediaAluno(mediaFinal: media)
+	let mensagem = retornaMediaAluno(mediaFinal: media)
 	print(mensagem)
 }
 
-func mostraMediaAluno(mediaFinal: Float) -> String {
+func retornaMediaAluno(mediaFinal: Float) -> String {
 	return("A média de notas do aluno é: \(mediaFinal)")
 }
 
